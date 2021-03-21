@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import Navbar from "../navigation/notLoggedIn"
-import Footer from "../navigation/footer"
+// import Navbar from "../navigation/notLoggedIn"
+// import Footer from "../navigation/footer"
 // require('dotenv'.config()
 export default class OwnerSignup extends Component {
     constructor() {
@@ -85,7 +85,7 @@ export default class OwnerSignup extends Component {
                             Your personal Link:
                             <input
                                 type="text"
-                                name="signup_link"
+                                name="personal_link"
                                 value={this.state.personal_link}
                                 onChange={this.handleChange}
                                 placeholder="Personal Link"
